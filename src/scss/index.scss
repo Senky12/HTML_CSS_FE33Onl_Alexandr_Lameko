@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import '../scss/variables.scss';
+@import '../scss/mixins.scss';
+@import '../scss/main.scss';
+@import '../scss/cdn.scss';
+@import '../scss/header.scss';
+@import '../scss/bg.scss';
+@import '../scss/desctop.scss';
+@import '../scss/work.scss';
+@import '../scss/team.scss';
+@import '../scss/slaider.scss';
+@import '../scss/downl.scss';
+@import '../scss/prefoot.scss';
+@import '../scss/footer.scss';
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+    position: relative;
+    z-index: 4;
+
+// @media (max-width: 980px) {
+//     display: flex;
+//     flex-direction: row;
+}
+
+html {
+    font-family: 'Raleway' sans-serif;
+}
+
+
+
+
+
+
+
+
+ 
+
+// section{
+//     padding: 20px 0;
+//     }
+
+// ul {
+//     border: $_border;
+//     width: 300px;
+//     li {
+//         display: flex;
+//         a {
+
+//             font-size: $_50px;
+//             &:hover {
+//                 color: $_red;
+//             }
+
+//             &::after {
+//                 content: "";
+//                 width: 67px;
+//                 background-color: $_grey    ;
+//                 margin: auto;
+//             }
+//         }
+//     }
+// }
+
+// .card {
+//     @include card;
+// width: 300px/1170px * 100%;
+
+// }
+
+
+// .tools{
+//     display: flex;
+
+//     &-discription {
+//         background-color: $_black;
+//     }
+//     &-item {
+//         font-size: $_14px;
+//     }
+// }
+

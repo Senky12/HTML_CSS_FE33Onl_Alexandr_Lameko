@@ -1,0 +1,24 @@
+{
+  "name": "html_css_fe33onl_alexandr_lameko",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senky12/HTML_CSS_FE33Onl_Alexandr_Lameko.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Senky12/HTML_CSS_FE33Onl_Alexandr_Lameko/issues"
+  },
+  "homepage": "https://github.com/Senky12/HTML_CSS_FE33Onl_Alexandr_Lameko#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}

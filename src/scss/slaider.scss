@@ -1,0 +1,127 @@
+.slaider {
+    padding-bottom: 114px;
+    @media (max-width: 1024px) {
+        padding-bottom: 77px;
+    }
+
+
+.slaider-row    {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 31px;
+
+   
+
+    .slaider-img {
+        width: 50%;
+        // height: 490px;
+        position: relative;
+        // padding,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,: 0px 0px 27% 0px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+    }
+
+    .slaider-text {
+        width: 50%;
+        
+        background-color: #5C3249;
+        padding: 116px 130px;
+
+        @media (max-width: 1024px) {
+            padding: 47px 90px 130px;
+        }
+        @media (max-width: 605px) {
+            padding: 20px 20px 130px;
+        }
+
+        p {
+            font-family: 'Raleway';
+font-style: italic;
+font-weight: 400;
+font-size: $_36px;
+line-height: 49px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 35px;
+
+@media (max-width: 1024px) {
+    font-size: 24px;
+}
+
+        }
+
+        span {
+            font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: $_13px;
+line-height: 15px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+@media (max-width: 1024px) {
+    font-size: 12px;
+}
+        }
+    }
+
+
+
+    @media (max-width: 899px) {
+        flex-direction: column;
+        .slaider-img {
+            width: 100%;
+            height: 400px;
+            object-fit: contain;
+        }
+        .slaider-text {
+            width: 100%;
+        }
+
+
+    }
+
+}
+
+.slaider-circle {
+width: 170px;
+margin: 0 auto;    
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+
+.slaider-circle-kek {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #7E5D6F ;
+    border-radius: 50%;
+    background: #FFFFFF;
+
+    @media (max-width: 1024px) {
+        width: 15px;
+        height: 15px;
+    }
+    
+}
+
+.first  {
+    background-color: #7E5D6F;
+    
+}
+    
+}
+
+}
+

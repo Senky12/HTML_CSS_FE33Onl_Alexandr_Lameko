@@ -1,0 +1,47 @@
+footer {
+background-color: #2C3154;
+padding: 24px 0px;
+
+@media (max-width: 1024px) {
+    padding: 14px 0;
+}
+
+.footer-text {
+    
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #808080;
+    @media (max-width: 1024px) {
+       font-size: 14px;
+    }
+}
+
+.footer-text-more {
+    
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #808080;
+
+    span {
+        color: #fff;
+    }
+
+    @media (max-width: 1024px) {
+        font-size: 14px;
+     }
+}
+
+
+}
